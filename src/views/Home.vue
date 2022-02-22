@@ -57,6 +57,7 @@
     </div>
     <!-- Work section -->
     <work></work>
+    <!-- Education section -->
   </div>
 </template>
 

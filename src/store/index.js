@@ -21,7 +21,22 @@ export default createStore({
       stackOverFlow: '',
       medium: '',
       resume: 'https://drive.google.com/file/d/1MG54VAtIjDfbp0hDd3Rtk-E08nBOea1P/view?usp=sharing'
-    }
+    },
+    whatIDo: 'Crazy Full Stack developer who wants to explore every tech stack', 
+    whatIdoFeatures: [
+      {
+        id: 1,
+        feature: 'Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      },
+      {
+        id: 2,
+        feature: 'Progressive Web Applications ( PWA ) in normal and SPA Stacks'
+      },
+      {
+        id: 3,
+        feature: 'Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      }
+    ]
   },
   mutations: {
   },

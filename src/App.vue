@@ -34,6 +34,6 @@ export default {
   }
   .container {
     background-color: #171c28;
-    height: 100vh;
+    height: 100%;
   }
 </style>
