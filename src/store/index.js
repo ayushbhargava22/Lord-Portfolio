@@ -137,7 +137,11 @@ export default createStore({
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, Inducation ve lorem hushd',
         tags: ['Certification', 'Award Letter', 'Google']
       }
-    ]
+    ],
+    footer: {
+      wannaBe: 'Aspiring Software Developer🧑‍💻 | Open Source Contributer🔥 | Speaker 🎙️ | Tech Writer✍️',
+      location: '🗺️ Jaipur, India'
+    }
   },
   mutations: {
   },
