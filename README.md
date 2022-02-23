@@ -80,12 +80,6 @@ You can change the personal information, experience, education, social media, ce
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
-<p align="center"> 
-    <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
-    <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
-  </a>
-</p>
-
 # Technologies used 🛠️
 
 - [Vue.js]
