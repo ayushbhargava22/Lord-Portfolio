@@ -56,8 +56,6 @@ You will find `src/store/index.js` file which contains the complete information 
     },
 
 ...
-```
-
 You can change the personal information, experience, education, social media, certifications, contact information etc. in `src/store/index.js` to directly reflect them in portfolio website.
 
 ## Other
