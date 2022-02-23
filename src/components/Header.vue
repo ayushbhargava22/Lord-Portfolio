@@ -9,7 +9,7 @@
       <ul class="navigation-list flex">
         <li class="navigation-item">Skills</li>
         <li class="navigation-item">Work Experiences</li>
-        <li class="navigation-item">Open Source</li>
+        <li class="navigation-item">Projects</li>
         <li class="navigation-item">Achivements</li>
         <li class="navigation-item">Blogs</li>
         <li class="navigation-item">Talks</li>

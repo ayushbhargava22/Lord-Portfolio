@@ -36,6 +36,107 @@ export default createStore({
         id: 3,
         feature: 'Integration of third party services such as Firebase/ AWS / Digital Ocean'
       }
+    ],
+    education: [
+      {
+        id: 1,
+        universityName: 'Harvard University',
+        Stream: 'Master of Science in Computer Science',
+        batch: 'September 2017 - April 2019',
+      },
+      {
+        id: 2,
+        universityName: 'Stanford Univeristy',
+        Stream: 'Bachelor of Science in Computer Science',
+        batch: 'September 2013 - April 2017',
+      }
+    ],
+    experiences: [
+      {
+        id: 1,
+        companyName: 'Microsoft',
+        designation: 'Software Developer',
+        duration: 'June 2018 - Present',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        id: 2,
+        companyName: 'Google',
+        designation: 'Software Developer',
+        duration: 'June 2016 - May 2018',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      },
+      {
+        id: 3,
+        companyName: 'Airbnb',
+        designation: 'Software Developer',
+        duration: 'June 2015 - May 2016',
+        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      }
+    ],
+    projects: [
+      {
+        id: 1,
+        projectName: 'Olx Clone',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+      {
+        id: 2,
+        projectName: 'Todo Application',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+      {
+        id: 3,
+        projectName: 'GitHub Finder',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+      {
+        id: 4,
+        projectName: 'React Blog App',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+      {
+        id: 5,
+        projectName: 'Zomato App Clone',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+      {
+        id: 6,
+        projectName: 'Education Website',
+        projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+        projectTech: ['JavaScript', 'Html', 'CSS'],
+        gitHubLink: 'https://github.com/'
+      },
+    ],
+    certication: [
+      {
+        id: 1,
+        certificateName: 'Google Code-In Finalist',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, Inducation ve lorem hushd',
+        tags: ['Certification', 'Award Letter', 'Google']
+      },
+      {
+        id: 2,
+        certificateName: 'Google Assistant Action',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, Inducation ve lorem hushd',
+        tags: ['Certification', 'Award Letter', 'Google']
+      },
+      {
+        id: 3,
+        certificateName: 'Microsoft Hackathon Finalist',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, Inducation ve lorem hushd',
+        tags: ['Certification', 'Award Letter', 'Google']
+      }
     ]
   },
   mutations: {

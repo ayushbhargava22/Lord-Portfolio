@@ -58,18 +58,37 @@
     <!-- Work section -->
     <work></work>
     <!-- Education section -->
+    <education></education>
+    <!-- Experiences section -->
+    <experiences></experiences>
+    <!-- Projects -->
+    <projects></projects>
+    <!-- Certications -->
+    <certications></certications>
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import FellingProud from '../components/FellingProud.vue';
 import Work from '../components/Work.vue';
+import Education from '../components/Education.vue';
+import Experiences from '../components/Experiences.vue';
+import Projects from '../components/Projects.vue';
+import Certications from '../components/Certifications.vue';
+import Footer from '../components/Footer.vue';
 import { mapState } from 'vuex';
 
 export default {
   components: {
     FellingProud,
     Work,
+    Education,
+    Experiences,
+    Projects,
+    Certications,
+    Footer
   },
   computed: {
     ...mapState(['grettings','firstName', 'links']),
