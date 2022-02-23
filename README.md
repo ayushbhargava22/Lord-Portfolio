@@ -94,12 +94,7 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 
 # Contributing 💡
 
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/ashutosh1919/masterPortfolio/pulls) or [issue](https://github.com/ashutosh1919/masterPortfolio/issues).
-
-- Move to Gatsby
-- Add Podcast Section and Video Section
-- Add tests to automate review.
-- Setup Travis workflow.
+If you can help us with these. Please don't hesitate to open an [pull request]
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
