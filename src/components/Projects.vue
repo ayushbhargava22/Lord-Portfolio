@@ -1,8 +1,8 @@
 <template>
   <div class="projects">
-    <h1 class="project-heading">Project Showcase</h1>
+    <h1 class="project-heading" @click="getP">Project Showcase</h1>
     <div class="project-con">
-      <div class="project-card" v-for="project in projects" :key="project.id">
+      <div class="project-card" v-for="(project,index) in projects" :key="project.id">
         <a :href="project.gitHubLink">
           <div class="project-card-div">
             <div class="project-div-heading">
@@ -11,8 +11,11 @@
             <div class="project-desc">
               <span>{{project.projectDescp}}</span>
             </div>
-            <div class="tech-stack">
-    
+            <div class="tech-stack flex">
+              <div class="tech flex" v-for="(tech) in projects[index].projectTech" :key="tech"> 
+                <div class="circle"></div>
+                <span>{{tech}}</span>
+            </div>
             </div>
           </div>
         </a>
@@ -31,6 +34,11 @@ import { mapState } from 'vuex';
 export default {
   computed: {
     ...mapState(['projects', 'links']),
+  },
+  methods: {
+    getP() {
+      console.log(this.projects[0].projectTech);
+    }
   }
 }
 </script>
@@ -88,5 +96,27 @@ export default {
     color: #fff;
     border: 1px solid #55198b;
     border-radius: 5px;
+  }
+  .tech-stack {
+    margin-top: 15px;
+  }
+  .tech-stack span {
+    margin-right: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .tech {
+    justify-content: center;
+    align-items: center;
+  }
+  .circle {
+    margin-right: 5px;
+    background-color: yellow;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 10px;
+    border-radius: 50%;
   }
 </style>

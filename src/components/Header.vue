@@ -11,8 +11,6 @@
         <li class="navigation-item">Work Experiences</li>
         <li class="navigation-item">Projects</li>
         <li class="navigation-item">Achivements</li>
-        <li class="navigation-item">Blogs</li>
-        <li class="navigation-item">Talks</li>
         <li class="navigation-item">Contact Me</li>
       </ul>
     </header>

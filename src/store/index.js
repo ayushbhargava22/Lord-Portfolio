@@ -43,12 +43,22 @@ export default createStore({
         universityName: 'Harvard University',
         Stream: 'Master of Science in Computer Science',
         batch: 'September 2017 - April 2019',
+        achivements: [
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit',
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit',
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit', 
+        ]
       },
       {
         id: 2,
         universityName: 'Stanford Univeristy',
         Stream: 'Bachelor of Science in Computer Science',
         batch: 'September 2013 - April 2017',
+        achivements: [
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit',
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit',
+          'Lorem ipsum dolar sit amet, consecteur adipisicng elit', 
+        ]
       }
     ],
     experiences: [
@@ -86,7 +96,7 @@ export default createStore({
         id: 2,
         projectName: 'Todo Application',
         projectDescp: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
-        projectTech: ['JavaScript', 'Html', 'CSS'],
+        projectTech: ['Rust', 'Html', 'CSS'],
         gitHubLink: 'https://github.com/'
       },
       {
@@ -118,7 +128,7 @@ export default createStore({
         gitHubLink: 'https://github.com/'
       },
     ],
-    certication: [
+    certification: [
       {
         id: 1,
         certificateName: 'Google Code-In Finalist',
@@ -129,7 +139,7 @@ export default createStore({
         id: 2,
         certificateName: 'Google Assistant Action',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, Inducation ve lorem hushd',
-        tags: ['Certification', 'Award Letter', 'Google']
+        tags: ['Award Letter', 'Google']
       },
       {
         id: 3,

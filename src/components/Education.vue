@@ -1,7 +1,7 @@
 <template>
   <div class="education-container flex flex-column">
     <h1>Education</h1>
-    <div class="education-list flex" v-for="edu in education" :key="edu.id">
+    <div class="education-list flex" v-for="(edu,index) in education" :key="edu.id">
       <div class="left">
         <img src="../assets/graduation-cap.png">
       </div>
@@ -9,6 +9,13 @@
         <h2>{{ edu.universityName }}</h2>
         <h3 class="stream">{{ edu.Stream }}</h3>
         <h3 class="batch">{{ edu.batch }}</h3>
+        <div class="achivmenet-container">
+          <div class="achivements" v-for="items in education[index].achivements" :key="items">
+            <ul class="achivement-list">
+              <li class="achivement-item">{{items}}</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -60,5 +67,10 @@ export default {
   .batch {
     font-size: 1.1rem;
     font-weight: normal;
+  }
+  .achivmenet-container {
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #868e98;
   }
 </style>
